@@ -1,0 +1,52 @@
+<main>
+   <style>
+    body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #5a5e9c;
+}
+
+header {
+    background-color: #3f4269;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+}
+  </style><nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="vehiculos.html">Vehículos</a></li>
+        <li><a href="alquiler.html">Alquiler</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Reservar un Vehículo</h1>
+  <form action="#" method="post">
+    <label>Nombre:</label>
+    <input type="text" name="nombre" required>
+
+    <label>Correo electrónico:</label>
+    <input type="email" name="correo" required>
+
+    <label>Tipo de vehículo:</label>
+    <select name="tipo">
+      <option value="Four Runner">Four Runner</option>
+      <option value="CX-30">CX-30</option>
+      
+    </select>
+
+    <label>Fecha de alquiler:</label>
+    <input type="date" name="fecha_inicio" required>
+
+    <label>Fecha de devolución:</label>
+    <input type="date" name="fecha_fin" required>
+
+    <label>Comentarios adicionales:</label>
+    <textarea name="comentarios"></textarea>
+
+    <button type="submit">Enviar solicitud</button>
+  </form>
+  <img src="https://cdn.motor1.com/images/mgl/qkW1gR/s1/ford-explorer-elettrica-2023.jpg" width="" height="600px">
+</main>
